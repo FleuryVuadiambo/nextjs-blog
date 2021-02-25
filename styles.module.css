@@ -1,12 +1,23 @@
+.body {
+  overflow-x: hidden;
+}
+
 .home {
-    background-color: black;
-    padding: 10px;
-  }
+  background-color: black;
+  padding: 10px;
+}
+
+.subHome {
+  display: flex;
+  justify-content: space-around;
+}
 
 .title {
-    text-align: center;
-    color: red;
-    padding: 10px;
+  text-align: center;
+  color: red;
+  padding: 10px;
+  font-size: 4em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .rangee {
@@ -16,22 +27,17 @@
   padding-top: 50px;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-around;
-}
-
 .card {
   width: 18rem;
 }
 
 .footer {
-    background-color: black;
-    color: whitesmoke;
-    text-align: center;
-    width: 100%;
-    min-height: 50px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  min-height: 50px;
 }
 .footer p {
-    padding: 10px;
+  padding: 10px;
 }

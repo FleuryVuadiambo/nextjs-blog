@@ -10,7 +10,7 @@ function Card() {
           <Col md>
             <div className={styles.card}>
               <Image
-                src="/naples.jpg"
+                src="/DSC00388.jpg"
                 className="card-img-top"
                 width={300}
                 height={300}
@@ -27,7 +27,7 @@ function Card() {
           <Col>
             <div className={styles.card}>
               <Image
-                src="/naples.jpg"
+                src="/DSC00419.jpg"
                 className="card-img-top"
                 width={300}
                 height={300}
@@ -44,7 +44,7 @@ function Card() {
           <Col>
             <div className={styles.card}>
               <Image
-                src="/naples.jpg"
+                src="/DSC00420.jpg"
                 className="card-img-top"
                 width={300}
                 height={300}
