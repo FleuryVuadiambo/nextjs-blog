@@ -7,9 +7,9 @@ import "bootstrap/dist/css/bootstrap.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.body}>
       <Navbar />
-      <h1 className={styles.title}>Bienvenue dans mon blog </h1>
+      <h1 className={styles.title}>Mes souvenirs vénitiens </h1>
       <ControlledCarousel />
       <Card />
       <Footer />

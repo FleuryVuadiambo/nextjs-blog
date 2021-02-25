@@ -16,10 +16,10 @@ function ControlledCarousel() {
           <CarouselItem>
             <Image
               className="d-block w-100"
-              src="/naples.jpg"
+              src="/DSC00289.jpg"
               alt="First slide"
               width={1700}
-              height={600}
+              height={700}
             />
             <CarouselCaption>
               <h3>First slide label</h3>
@@ -29,10 +29,10 @@ function ControlledCarousel() {
           <CarouselItem>
             <Image
               className="d-block w-100"
-              src="/naples.jpg"
+              src="/DSC00243.jpg"
               alt="Second slide"
               width={1700}
-              height={600}
+              height={700}
             />
             <CarouselCaption>
               <h3>Second slide label</h3>
@@ -42,10 +42,10 @@ function ControlledCarousel() {
           <CarouselItem>
             <Image
               className="d-block w-100"
-              src="/naples.jpg"
+              src="/DSC00245.jpg"
               alt="Third slide"
               width={1700}
-              height={600}
+              height={700}
             />
             <CarouselCaption>
               <h3>Third slide label</h3>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, NavItem, NavLink, Row } from "reactstrap";
+import { Nav, NavItem, NavLink, Row } from "reactstrap";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
@@ -8,8 +8,8 @@ import styles from "../styles.module.css";
 function Navbar() {
   return (
     <div className={styles.home}>
-      <Container className={styles.menu}>
-        <Row>
+      <Row className={styles.subHome}>
+        <div className={styles.menu}>
           <Nav
             activeKey="/home"
             onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
@@ -23,13 +23,15 @@ function Navbar() {
             <NavItem>
               <NavLink eventKey="link-2">Contact</NavLink>
             </NavItem>
-            <Form inline>
-              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-              <Button variant="outline-primary">Search</Button>
-            </Form>
           </Nav>
-        </Row >
-      </Container>
+        </div>
+        <div>
+          <Form inline>
+            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <Button variant="outline-primary">Search</Button>
+          </Form>
+        </div>
+      </Row >
     </div>
   );
 }
